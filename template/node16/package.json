@@ -1,16 +1,21 @@
 {
-  "name": "openfaas-node12",
+  "name": "openfaas-node16",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no tests specified\" && exit 0"
+    "test": "mocha"
   },
   "keywords": [],
-  "author": "OpenFaaS Ltd",
+  "author": "Martin Chapman",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
   }
 }
